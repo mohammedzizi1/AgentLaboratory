@@ -7,7 +7,7 @@ from torch.backends.mkl import verbose
 import argparse
 import pickle
 
-DEFAULT_LLM_BACKBONE = "o1-mini"
+DEFAULT_LLM_BACKBONE = "claude-3-5-sonnet"
 
 
 class LaboratoryWorkflow:
